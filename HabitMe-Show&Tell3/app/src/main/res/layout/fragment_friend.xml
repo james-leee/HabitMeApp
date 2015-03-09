@@ -1,0 +1,14 @@
+<com.example.cs65project.habitme.library.PullToRefreshView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipe_container"
+    android:background="@drawable/friend_background">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation = "vertical"/>
+</com.example.cs65project.habitme.library.PullToRefreshView>

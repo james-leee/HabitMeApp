@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:statusBarColor">#587F20</item>
+        <item name="android:textColorPrimary">#FFF</item>
+        <!--<item name="android:navigationBarColor">#669900</item>-->
+    </style>
+    <style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#444</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="SettingText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

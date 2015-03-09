@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HabitMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_habit">AddHabitActivity</string>
+    <string name="activity_name">Activity:</string>
+    <string name="activity_description">Description:</string>
+    <string name="save_button">SAVE</string>
+    <string name="cancel_button">CANCEL</string>
+    <string name="title_activity_check_habit"></string>
+    <string name="activity_checkin">Last check-in: </string>
+    <string name="title_activity_make_post">MakePostActivity</string>
+    <string name="action_delete">DELETE</string>
+    <string name="comment_text">Comment</string>
+    <string name="dialog_submit">submit</string>
+    <string name="dialog_cancel">cancel</string>
+    <string name="server_addr">http://1-dot-cs65habitme.appspot.com</string>
+    <string name="username">User name:</string>
+    <string name="password">Password:  </string>
+    <string name="username_hint">Please enter your Blitz ID</string>
+    <string name="password_hint">Please enter your Blitz password</string>
+    <string name="submit">submit</string>
+    <string name="forget_password">forgot password</string>
+    <string name="email">\@dartmouth.edu</string>
+    <string name="settings_privacy_setting_title">Privacy</string>
+    <string name="settings_privacy_setting_summary">Not to publish your posts</string>
+    <string name="settings_account_preferences">Personal Settings</string>
+    <string name="settings_additional_setting">System settings</string>
+    <string name="settings_comment_title">What\'s Up</string>
+    <string name="settings_comment_summary">Say something about yourself</string>
+    <string name="settings_comment_dialogue_title">What\'s Up</string>
+    <string name="settings_classhomepage_classhomepage">App Webpage</string>
+    <string name="settings_misc">Link</string>
+    <string name="settings_classhomepage_summary">Welcome to our official website</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_title">Choose profile image</string>
+    <string name="profile_photo_file_name">profile.png</string>
+    <string name="take_photo_file_name">take.png</string>
+    <string name="action_save">save</string>
+    <string name="dialogue_whatsup_title">Say something about yourself</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">CANCEL</string>
+    <string name="action_cancel">cancel</string>
+    <string name="load">HabitMe</string>
+
+    <string-array name="photo_options">
+        <item>Take from camera</item>
+        <item>Select from gallery</item>
+    </string-array>
+
+    <string name="title_activity_post_detail">PostDetailActivity</string>
+    <string name="title_activity_add_main_habit">AddMainHabitActivity</string>
+    <string name="title_activity_set_choose_habit">SetChooseHabitActivity</string>
+    <string name="title_activity_personal_check_habit_post">PersonalCheckHabitPostActivity</string>
+
+</resources>

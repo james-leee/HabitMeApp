@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#669900">
+    <RelativeLayout
+        android:id="@+id/login_div"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_marginTop="20dp"
+        android:layout_margin="15dip"
+        android:background="@drawable/background_login_div_bg" >
+        <TextView
+            android:id="@+id/login_user_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:text=""
+            style="@style/normalText"/>
+        <EditText
+            android:id="@+id/usr_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dartmouth Email Address"
+            android:textSize="20sp"
+            android:layout_below="@id/login_user_input"
+            android:singleLine="true"
+            android:inputType="text"/>
+        <TextView
+            android:id="@+id/login_password_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/usr_text"
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+            android:text=""
+            style="@style/normalText"/>
+        <EditText
+            android:id="@+id/psw_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_password_input"
+            android:password="true"
+            android:hint="Password"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:inputType="textPassword" />
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/psw_text"
+            android:layout_alignRight="@id/psw_text"
+            android:text="Login"
+            android:background="@drawable/blue_button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:text="HabitMe"
+            android:textColor="@android:color/white"
+            android:textSize="80dp"
+            android:id="@+id/habitmetext"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+        <ImageView android:src="@drawable/panda"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="140dp"
+            android:paddingBottom="8dp"/>
+    </RelativeLayout>
+</LinearLayout>

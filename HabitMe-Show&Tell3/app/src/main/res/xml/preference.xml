@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<PreferenceCategory-->
+        <!--android:title="@string/settings_account_preferences">-->
+        <!--<CheckBoxPreference-->
+            <!--android:textSize="10dp"-->
+            <!--android:title="@string/settings_privacy_setting_title"-->
+            <!--android:textColor="#000"-->
+            <!--android:summary="@string/settings_privacy_setting_summary">-->
+        <!--</CheckBoxPreference>-->
+        <!--<EditTextPreference-->
+            <!--android:textSize="10dp"-->
+            <!--android:key="comment"-->
+            <!--android:textColor="#000"-->
+            <!--android:title="@string/settings_comment_title"-->
+            <!--android:summary="@string/settings_comment_summary"-->
+            <!--android:dialogTitle="@string/settings_comment_dialogue_title"/>-->
+
+    <!--</PreferenceCategory>-->
+
+
+
+    <!--&lt;!&ndash;<PreferenceCategory&ndash;&gt;-->
+        <!--&lt;!&ndash;android:title="@string/settings_additional_setting">&ndash;&gt;-->
+
+
+
+
+    <!--&lt;!&ndash;</PreferenceCategory>&ndash;&gt;-->
+
+    <PreferenceCategory
+        android:title="@string/settings_misc">
+
+        <PreferenceScreen
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:summary="@string/settings_classhomepage_summary">
+
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://habitme.weebly.com" />
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

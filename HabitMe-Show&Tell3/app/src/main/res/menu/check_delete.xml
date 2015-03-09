@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cs65project.habitme.CheckHabitActivity">
+    <item android:id = "@+id/delete_action"
+        android:icon="@drawable/recycle_closed"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+</menu>
